@@ -28,8 +28,8 @@ gphoto2 --stdout --capture-movie | ffmpeg -i - -vcodec rawvideo -pix_fmt yuv420p
 
 5. Video feed is available on /dev/video0 with 1024x768 resolution
 
-_can be checked with vlc_
-_jitsi on FF82 does not find the camera but does on Chromium_
+- _can be checked with vlc_
+- _jitsi on FF82 does not find the camera but does on Chromium_
 
 
 sources :
