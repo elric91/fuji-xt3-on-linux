@@ -16,7 +16,7 @@ modprobe v4l2loopback exclusive_caps=1 max_buffers=2
 3. Configure the video resolution with the camera plugged on USB and then turned on
 ```
 gphoto2 --get-config /main/capturesettings/liveviewsize
-gphoto2 --set-config-index liveviewsize="2"
+gphoto2 --set-config-index liveviewsize="0"
 gphoto2 --get-config /main/capturesettings/liveviewsize
 ```
 _NB : get-config commands to check the quality has been changed_
